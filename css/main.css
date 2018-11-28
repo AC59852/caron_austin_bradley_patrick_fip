@@ -7,6 +7,13 @@ html,body
     overflow-x: hidden; 
 }
 
+.mainBck
+{
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/pond.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #siteContainer 
 {
 	margin: 0 auto;
@@ -57,8 +64,8 @@ html,body
 {	display: flex;
 	flex-direction: row;
 	list-style-type: none;
-	padding: 10;
-	margin-top: 25px;
+	padding: 10%;
+	margin-top: -45px;
 	margin-left: -50px;
 }
 
@@ -84,15 +91,13 @@ html,body
 
 .promoPhoto
 {
-	background-image: url(file:///C:/Users/austi/Desktop/fip/caron_austin_bradley_patrick_fip/images/promo1.png);
-	height: 350px;
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/promo1.png);
+	height: 640px;
 	width: 2100px;
 	background-size: cover;
     background-repeat: no-repeat;
-    position: flex;
-    flex-direction: row;
     text-align: center;
-    margin-top: -360px;
+    margin-top: -380px;
     margin-left: -610px;
     margin-bottom: 200px;
 }
@@ -101,9 +106,18 @@ html,body
 {
 	font-family: lato;
 	color: white;
-	padding-top: 35px;
+	padding-top: 175px;
 	margin-left: 25px;
 	font-size: 70px;
+}
+
+.promoTextHeader2
+{
+	font-family: lato;
+	color: white;
+	padding-top: 175px;
+	margin-left: 10px;
+	font-size: 90px;
 }
 
 .promoTextSmall
@@ -115,9 +129,152 @@ html,body
 	margin-left: 25px;
 }
 
-.placeholder
+
+.placeholderText
+{
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/pokemon3.jpg);
+	background-size: cover;
+	height: 300px;
+	width: 440px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.placeholderPara
+{
+	font-family: lato;
+	font-size: 30px;
+	color: white;
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+.placeholderText2
+{
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/map.jpg);
+	background-size: cover;
+	height: 300px;
+	width: 440px;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.productImages 
+{
+	margin-top: 100px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+}
+
+.contentHeader
+{
+	text-align: center;
+	font-family: lato;
+	color: white;
+	font-size: 40px;
+	padding-top: 200px;
+
+}
+
+.contentBox
 {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	height: 200px;
+	width: 920px; 
+	text-align: center;
+	margin-bottom: 300px;
+}
+
+.contentBox2
+{
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/poke_house.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -200px;
+    height: 600px;
+    width: 1700px;
+    margin-left: -400px;
+    text-align: center;
+    padding: 0 60 0 60;
+}
+
+.contentText
+{
+	font-family: lato;
+	font-size: 20px;
+	color: white
+}
+
+.footer
+{
+	height: 75px;
+	width: 2200px;
+	background-repeat: no-repeat;
+    background-color: #222222;
+    position: relative;
+}
+
+.footerNav ul li
+{
+	font-size: 30px;
+	font-family: lato;
+	letter-spacing: 2px;
+}
+
+.footerNav ul li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.footerNav ul li a:hover
+{
+	color: #e84242;
+	padding: 10px;
+}
+
+.footerNav
+{
+	width: 700px;
+	height: 25px;
+	position: relative;
+	padding-top: 5px;
+}
+
+
+.footerNav ul
+{	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	margin-left: -50px;
+}
+
+.copyright
+{
+	display: flex;
+	margin-top: -10px;
+	flex-direction: row;
+	position: relative;
+	margin-left: 1100px;
+	font-family: lato;
+	color: white;
+}
+
+
+.mechanicsText
+{
+	font-family: lato;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	padding-left: 90px;
+	padding-right: 90px;
 }

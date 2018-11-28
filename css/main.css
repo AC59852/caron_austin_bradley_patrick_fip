@@ -9,7 +9,7 @@ html,body
 
 .mainBck
 {
-	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/pond.PNG);
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/pond.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -97,7 +97,7 @@ html,body
 	background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    margin-top: -360px;
+    margin-top: -380px;
     margin-left: -610px;
     margin-bottom: 200px;
 }
@@ -109,6 +109,15 @@ html,body
 	padding-top: 175px;
 	margin-left: 25px;
 	font-size: 70px;
+}
+
+.promoTextHeader2
+{
+	font-family: lato;
+	color: white;
+	padding-top: 175px;
+	margin-left: 10px;
+	font-size: 90px;
 }
 
 .promoTextSmall
@@ -179,6 +188,21 @@ html,body
 	margin-bottom: 300px;
 }
 
+.contentBox2
+{
+	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/poke_house.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -200px;
+    height: 600px;
+    width: 1700px;
+    margin-left: -400px;
+    text-align: center;
+    padding: 0 60 0 60;
+}
+
 .contentText
 {
 	font-family: lato;
@@ -240,4 +264,17 @@ html,body
 	margin-left: 1100px;
 	font-family: lato;
 	color: white;
+}
+
+
+.mechanicsText
+{
+	font-family: lato;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	padding-left: 90px;
+	padding-right: 90px;
 }

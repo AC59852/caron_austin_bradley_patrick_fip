@@ -9,7 +9,7 @@ html,body
 
 .mainBck
 {
-	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/pond.jpg);
+	background-image: url(../images/pond.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -91,7 +91,7 @@ html,body
 
 .promoPhoto
 {
-	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/promo1.png);
+	background-image: url(../images/promo1.png);
 	height: 640px;
 	width: 2100px;
 	background-size: cover;
@@ -132,7 +132,7 @@ html,body
 
 .placeholderText
 {
-	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/pokemon3.jpg);
+	background-image: url(../images/pokemon3.jpg);
 	background-size: cover;
 	height: 300px;
 	width: 440px;
@@ -151,7 +151,7 @@ html,body
 
 .placeholderText2
 {
-	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/map.jpg);
+	background-image: url(../images/map.jpg);
 	background-size: cover;
 	height: 300px;
 	width: 440px;
@@ -190,7 +190,7 @@ html,body
 
 .contentBox2
 {
-	background-image: url(file:///C:/Users/austi/Desktop/caron_austin_bradley_patrick_fip/images/poke_house.jpg);
+	background-image: url(../images/poke_house.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

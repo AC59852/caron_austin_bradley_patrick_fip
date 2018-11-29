@@ -19,6 +19,13 @@ html,body
 	background-color: #222222;
 }
 
+.contactBck
+{
+	background-image: url(../images/pkm.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #siteContainer 
 {
 	margin: 0 auto;
@@ -53,7 +60,6 @@ html,body
     background-color: #222222;
     position: relative;
 }
-
 
 
 .mainNav
@@ -322,4 +328,87 @@ html,body
     margin-left: -520px;
     text-align: center;
     padding: 0 60 0 60;
+}
+
+.contactBox
+{
+    margin-top: -350px;
+    margin-bottom: 200px;
+    height: 800px;
+    width: 2000px;
+    margin-left: -520px;
+    text-align: center;
+    padding: 0 60 0 60;
+}
+
+
+
+input, textarea
+{
+	display: block;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	width: 160px;
+	background-color: #efefef;
+	border: solid 1px #999;
+}
+
+.contactBck
+{
+	background-image: url(../images/london.jpg);
+}
+
+
+.Black
+{
+	background-color: #222222;
+	height: 650px;
+	width: 850px;
+	margin-left: 525px;
+	padding-top: 30px;
+}
+
+#submit
+{
+	margin-top: 50px;
+}
+
+
+label
+{
+	color: white;
+	font-family: lato;
+	margin-left: -630px;
+}
+
+.map
+{
+	height: 300px;
+	width: 400px;
+	position: relative;
+	top: -200px;
+	margin-top: -1000px;
+	margin-left: 400px;
+}
+
+#comments
+{
+	width: 250px;
+}
+
+.comments
+{
+	margin-left: -600px;
+}
+
+.location
+{
+	font-family: lato;
+	font-size: 40px;
+	color: white;
+	position: relative;
+	top: -500px;
+	left: 200px;
 }

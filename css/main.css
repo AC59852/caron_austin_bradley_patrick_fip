@@ -14,6 +14,11 @@ html,body
 	background-size: cover;
 }
 
+.gameBlack
+{
+	background-color: #222222;
+}
+
 #siteContainer 
 {
 	margin: 0 auto;
@@ -172,7 +177,19 @@ html,body
 {
 	text-align: center;
 	font-family: lato;
+	margin-left: -30px;
 	color: white;
+	font-size: 40px;
+	padding-top: 200px;
+
+}
+
+.contentHeader2
+{
+	text-align: center;
+	font-family: lato;
+	color: white;
+	margin-left: -300px;
 	font-size: 40px;
 	padding-top: 200px;
 
@@ -186,21 +203,6 @@ html,body
 	width: 920px; 
 	text-align: center;
 	margin-bottom: 300px;
-}
-
-.contentBox2
-{
-	background-image: url(../images/poke_house.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -200px;
-    height: 600px;
-    width: 1700px;
-    margin-left: -400px;
-    text-align: center;
-    padding: 0 60 0 60;
 }
 
 .contentText
@@ -275,6 +277,49 @@ html,body
 	color: white;
 	font-size: 20px;
 	overflow: hidden;
-	padding-left: 90px;
-	padding-right: 90px;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+
+.mapText
+{
+	font-family: lato;
+	display: flex;
+	flex-direction: row;
+	margin-left: -300px;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	padding-left: 600px;
+	padding-right: 600px;
+}
+
+.contentBox3
+{
+	background-image: url(../images/path.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 600px;
+    width: 2200px;
+    margin-left: -500px;
+    text-align: center;
+    padding: 0 60 0 60;
+}
+.contentBox2
+{
+	background-image: url(../images/poke_house.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -200px;
+    margin-bottom: 70px;
+    height: 600px;
+    width: 2000px;
+    margin-left: -520px;
+    text-align: center;
+    padding: 0 60 0 60;
 }

@@ -120,6 +120,14 @@ html,body
 	padding-top: 5px;
 }
 
+.gamefooterNav
+{
+	width: 500px;
+	height: 25px;
+	position: relative;
+	padding-top: 5px;
+}
+
 
 .footerNav ul
 {	display: flex;
@@ -134,7 +142,7 @@ html,body
 	margin-top: -10px;
 	flex-direction: row;
 	position: relative;
-	margin-left: 1100px;
+	margin-left: 600px;
 	font-family: lato;
 	color: white;
 }
@@ -340,6 +348,126 @@ html,body
 	padding-right: 800px;
 }
 
+/* Start of Team CSS */
+
+.austinBox
+{
+	background-image: url(../images/austin.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 600px;
+    width: 2200px;
+    margin-top: -200px;
+    margin-left: -500px;
+    text-align: center;
+    padding: 0px 60 0px 60;	
+}
+
+.patrickBox
+{
+	background-image: url(../images/patrick.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 600px;
+    width: 2200px;
+    margin-left: -500px;
+    text-align: center;
+    padding: 0px 60 0px 60;
+}
+
+.patrickText
+{
+	font-family: lato;
+	display: flex;
+	flex-direction: row;
+	margin-left: -300px;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	padding-left: 800px;
+	padding-right: 800px;
+}
+
+.patrickHeader
+{
+	text-align: center;
+	font-family: lato;
+	color: white;
+	margin-left: -300px;
+	font-size: 40px;
+	padding-top: 100px;
+
+}
+
+.austinHeader
+{
+	text-align: center;
+	font-family: lato;
+	margin-left: -30px;
+	color: white;
+	margin-left: -300px;
+	font-size: 40px;
+	padding-top: 100px;
+
+}
+
+.austinText
+{
+	font-family: lato;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	padding-left: 500px;
+	padding-right: 800px;
+}
+
+.londonBox
+{
+	background-image: url(../images/fanshawe.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    height: 600px;
+    width: 2200px;
+    margin-left: -500px;
+    text-align: center;
+    padding: 0px 60 0px 60;
+}
+
+.londonHeader
+{
+	text-align: center;
+	font-family: lato;
+	color: white;
+	margin-left: -300px;
+	font-size: 40px;
+	padding-top: 250px;
+
+}
+
+.londonText
+{	font-family: lato;
+	display: flex;
+	flex-direction: row;
+	margin-left: -300px;
+	color: white;
+	font-size: 20px;
+	overflow: hidden;
+	padding-left: 800px;
+	padding-right: 800px;
+}
+
+
 /* Start of Contact CSS */
 
 .contactBck
@@ -412,7 +540,7 @@ label
 	height: 300px;
 	width: 400px;
 	position: relative;
-	top: -200px;
+	top: -450px;
 	margin-top: -1000px;
 	margin-left: 400px;
 }
@@ -423,6 +551,6 @@ label
 	font-size: 40px;
 	color: white;
 	position: relative;
-	top: -500px;
-	left: 200px;
+	top: -800px;
+	left: 525px;
 }

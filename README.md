@@ -16,15 +16,15 @@ index.html, our home page
 README, that's me! You're in here now
 team.html, our team page
 
-#### **Development Programs Used**
+### **Development Programs Used**
 Sublime Text, used for all of our coding
 Photoshop, used for all image editing
 Illustrator, used for the top banner
 Chrome, the preferred browser to use for the best experience 
 
-##### **Installation**
+### **Installation**
 Just clone the repo to your desktop and load it up!
 
-###### **Authors**
+### **Authors**
 Austin Caron - Creator
 William Patrick Bradley - Creator
